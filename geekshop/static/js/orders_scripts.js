@@ -15,6 +15,7 @@ function deleteOrderItem(row) {
    orderSummaryUpdate(price_arr[orderitem_num], delta_quantity);
 }
 
+
 $('.order_form select').change(function () {
    var target = event.target;
    console.log(target);
